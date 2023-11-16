@@ -1,0 +1,33 @@
+.context {
+  display: grid;
+}
+
+.input {
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+  display: block;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.inputError {
+  composes: input;
+  border: solid 1px red!important;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.sigla {
+  text-transform: uppercase;
+}
+
+.btn {
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  padding: 8px;
+  text-transform: capitalize;
+}
